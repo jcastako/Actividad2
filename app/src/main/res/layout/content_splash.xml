@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carlosrestrepo.tarea2.Splash"
+    tools:showIn="@layout/activity_splash">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:layout_centerInParent="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/nomProg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logoU"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="INGENIERIA DE SOFTWARE"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/nomSem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nomDoc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:text="SEMESTRE: 6"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/logoU"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            app:srcCompat="@drawable/umb"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/nomDoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NomEs"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:text="DOCENTE: YAMIL BUENAÑO"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/NomMat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/nomProg"
+            android:layout_centerVertical="true"
+            android:text="PROGRAMCIÓN MOVILES II"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/NomEs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NomMat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:text="ESTUDIANTE: JORGE CASTAÑO"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/nomAn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nomSem"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:text="2017"
+            android:textColor="@android:color/black"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tarea2</string>
+    <string name="title_activity_universidad">Universidad</string>
+    <string name="title_activity_buscador">Buscador</string>
+    <string name="title_activity_formulario">Formulario</string>
+    <string name="title_activity_inscripcion">Inscripcion</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>
